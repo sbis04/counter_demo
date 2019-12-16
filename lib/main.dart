@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.orange,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -40,21 +40,34 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Container(
-        color: Colors.yellow,
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                'You have pushed the button this many times:',
-                style: TextStyle(fontSize: 16),
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/codemagic_background.png"),
+                fit: BoxFit.cover)),
+        child: Stack(
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(60, 180, 60, 0),
+              child: Image(
+                image: AssetImage("assets/codemagic_logo.png"),
               ),
-              Text(
-                '$_counter',
-                style: TextStyle(fontSize: 50, color: Colors.black),
+            ),
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    'You have pushed the button this many times:',
+                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  ),
+                  Text(
+                    '$_counter',
+                    style: TextStyle(fontSize: 50, color: Colors.white),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
