@@ -1,0 +1,13 @@
+current directory: /Users/souvikbiswas/Mobile Apps/Flutter/Others app/counter_demo/android/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200109-9416-a7ec90.rb extconf.rb
+creating Makefile
+
+current directory: /Users/souvikbiswas/Mobile Apps/Flutter/Others app/counter_demo/android/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/souvikbiswas/Mobile Apps/Flutter/Others app/counter_demo/android/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/souvikbiswas/Mobile Apps/Flutter/Others app/counter_demo/android/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" install
