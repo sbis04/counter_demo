@@ -26,7 +26,7 @@ platform :ios do
         )
         firebase_app_distribution(
             app: "1:842582955660:ios:f1046e15702d124ad18da9",
-            testers: "sbis1999@gmail.com, manbis1964@gmail.com, gaubis1960@gmail.com",
+            testers: "sbis1999@gmail.com",
             release_notes: "Initial test version of the app",
             firebase_cli_path: "/usr/local/bin/firebase",
             ipa_path: "./build/Runner/Runner.ipa"
