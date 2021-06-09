@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(
-          Icons.favorite,
+          Icons.add,
           size: 30,
         ),
       ),
